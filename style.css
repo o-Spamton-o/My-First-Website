@@ -1,0 +1,101 @@
+html {
+  background: url(images/ocean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  background-color: lightpink;
+  width: 800px;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid coral;
+  margin-top: 10px;
+  text-shadow: 1.5px 1.5px green;
+}
+body {
+  text-align: center;
+  margin: auto;
+  background-color: palegoldenrod;
+  width: 900px;
+  margin: auto;
+  border: 3px solid salmon;
+  border-radius: 23px;
+  padding: 5px 10px;
+}
+ul {
+  list-style-position: inside;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid teal;
+  border-radius: 10px;
+  width: 400px;
+}
+ul:hover {
+  background-color: forestgreen;
+  width: 400px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid teal;
+  margin: auto;
+  margin-bottom: 10px;
+}
+li:hover {
+  font-weight: bolder;
+  font-style: italic;
+  color: orange;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: maroon;
+  font-size: 18px;
+}
+a {
+  font-style: italic;
+  color: blueviolet;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  box-shadow: 5px 5px orange;
+}
+#first-img:hover {
+  border-radius: 20px;
+  width: 210px;
+  border: 3px solid purple;
+}
+#second-img {
+  margin-top: 15px;
+}
+#second-img:hover {
+  border-radius: 30px;
+  width: 220px;
+  border: 3px solid green;
+}
+#third-img:hover {
+  border-radius: 25px;
+  width: 215px;
+  border: 3px solid teal;
+}
+hr {
+  font-weight: bolder;
+}
+#third-img {
+  margin-top: 15px;
+}
+p:hover {
+  border: 2px solid salmon;
+}
